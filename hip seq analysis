@@ -1,0 +1,11 @@
+# 定义文件名和内容
+filename = "hip_seq_analysis.txt"
+content = """1.文件夹A
+2.文件夹B
+3.文件夹A中文件夹C"""
+
+# 打开文件并写入内容
+with open(filename, 'w', encoding='utf-8') as file:
+    file.write(content)
+
+print(f"文件 '{filename}' 已成功创建并写入内容。")
